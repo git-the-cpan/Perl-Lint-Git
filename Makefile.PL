@@ -16,7 +16,7 @@ WriteMakefile
                    'Git::Repository::Plugin::Blame' => 0,
                    'Carp' => 0,
                    'Test::More' => 0,
-                   'Perl::Lint' => 0,
+                   'Perl::Lint' => '0.21',
                    'Git::Repository' => 0,
                    'File::Path' => 0,
                    'File::Basename' => 0,

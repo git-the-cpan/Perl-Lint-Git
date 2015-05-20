@@ -21,18 +21,18 @@ name: Perl-Lint-Git
 provides:
   Perl::Lint::Git:
     file: lib/Perl/Lint/Git.pm
-    version: v1.0.0
+    version: v1.0.1
 requires:
   Carp: '0'
   Data::Dumper: '0'
   File::Basename: '0'
   Git::Repository: '0'
   Git::Repository::Plugin::Blame: '0'
-  Perl::Lint: '0'
+  Perl::Lint: '0.21'
   perl: '5.006'
 resources:
   bugtracker: https://github.com/guillaumeaubert/Perl-Lint-Git/issues
   homepage: https://metacpan.org/release/Perl-Lint-Git
   license: http://www.gnu.org/licenses/gpl-3.0.txt
   repository: https://github.com/guillaumeaubert/Perl-Lint-Git
-version: v1.0.0
+version: v1.0.1

@@ -55,7 +55,7 @@ my $builder = $class->new(
 		'File::Basename'                 => 0,
 		'Git::Repository'                => 0,
 		'Git::Repository::Plugin::Blame' => 0,
-		'Perl::Lint'                     => 0,
+		'Perl::Lint'                     => 0.21,
 	},
 	add_to_cleanup      =>
 	[
