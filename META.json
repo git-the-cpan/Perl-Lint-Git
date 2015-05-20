@@ -17,6 +17,7 @@
       "build" : {
          "requires" : {
             "File::Path" : "0",
+            "Git::Repository" : "0",
             "Test::Deep" : "0",
             "Test::Exception" : "0",
             "Test::FailWarnings" : "0",
@@ -44,7 +45,7 @@
    "provides" : {
       "Perl::Lint::Git" : {
          "file" : "lib/Perl/Lint/Git.pm",
-         "version" : "v1.0.1"
+         "version" : "v1.0.2"
       }
    },
    "release_status" : "stable",
@@ -60,5 +61,5 @@
          "url" : "https://github.com/guillaumeaubert/Perl-Lint-Git"
       }
    },
-   "version" : "v1.0.1"
+   "version" : "v1.0.2"
 }

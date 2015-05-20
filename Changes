@@ -1,5 +1,8 @@
 Revision history for Perl-Lint-Git
 
+v1.0.2  2015-05-19
+        - Fix git version test.
+
 v1.0.1  2015-05-19
         - Fix prereq version for Perl::Lint.
 

@@ -41,6 +41,7 @@ my $builder = $class->new(
 	build_requires      =>
 	{
 		'File::Path'                     => 0,
+		'Git::Repository'                => 0,
 		'Test::Deep'                     => 0,
 		'Test::Exception'                => 0,
 		'Test::FailWarnings'             => 0,
